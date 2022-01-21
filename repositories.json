@@ -1,0 +1,14 @@
+{
+   "author": "darwinsden (Eric Edwards)",
+   "gitHubUrl": "https://github.com/DarwinsDen",
+   "payPalUrl": "https://www.paypal.com/paypalme/darwinsden",
+   "packages": [
+      {
+   		"name": "Tesla Powerwall Manager",
+   		"category": "Integrations",
+   		"location": "https://raw.githubusercontent.com/DarwinsDen/Tesla-Powerwall-Manager/main/packageManifest.json",
+   		"description": "Create advanced Tesla Powerwall schedules, control, monitor, and integrate your Powerwall with SmartThings and Hubitat home automation systems.",
+         "tags": [ "Energy Monitoring", "Monitoring", "Timers" ]
+   	}
+   ]
+}
