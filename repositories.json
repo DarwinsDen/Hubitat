@@ -7,8 +7,8 @@
    		"name": "Tesla Powerwall Manager",
    		"category": "Integrations",
    		"location": "https://raw.githubusercontent.com/DarwinsDen/Tesla-Powerwall-Manager/main/packageManifest.json",
-   		"description": "Create advanced Tesla Powerwall schedules, control, monitor, and integrate your Powerwall with SmartThings and Hubitat home automation systems.",
-         "tags": [ "Energy Monitoring", "Monitoring", "Timers" ]
+   		"description": "Create advanced Tesla Powerwall schedules, control, monitor, and integrate your Powerwall with Hubitat (and SmartThings).",
+         "tags": [ "Energy Monitoring"]
    	}
    ]
 }
