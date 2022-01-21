@@ -14,7 +14,7 @@
    		"name": "Demand Manager",
    		"category": "Integrations",
    		"location": "https://raw.githubusercontent.com/DarwinsDen/Demand-Manager/main/packageManifest.json",
-   		"description": "For those with utility companies that levy demand charges. Calculate current and projected demand usage for 30 or 60 minute demand cycles. Receive notifications and automatically control your thermostat and other devices in order to reduce peak demand costs.",
+   		"description": "For those with utility companies that levy demand charges. Calculate and monitor demand usage for 30 or 60 minute demand cycles and control devices in order to reduce peak demand costs.",
          "tags": [ "Energy Monitoring"]
    	}
    ]
