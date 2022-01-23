@@ -4,17 +4,17 @@
    "payPalUrl": "https://www.paypal.com/paypalme/darwinsden",
    "packages": [
       {
-   		"name": "Tesla Powerwall Manager",
-   		"category": "Integrations",
-   		"location": "https://raw.githubusercontent.com/DarwinsDen/Tesla-Powerwall-Manager/main/packageManifest.json",
-   		"description": "Create advanced Tesla Powerwall schedules, control, monitor, and integrate your Powerwall with Hubitat (and SmartThings).",
+         "name": "Tesla Powerwall Manager",
+         "category": "Integrations",
+         "location": "https://raw.githubusercontent.com/DarwinsDen/Tesla-Powerwall-Manager/main/packageManifest.json",
+         "description": "Create advanced Tesla Powerwall schedules, control, monitor, and integrate your Powerwall with Hubitat (and SmartThings).",
          "tags": [ "Energy Monitoring"]
    	},
       {
-   		"name": "Demand Manager",
-   		"category": "Utility",
-   		"location": "https://raw.githubusercontent.com/DarwinsDen/Demand-Manager/main/packageManifest.json",
-   		"description": "For those with utility companies that levy demand charges. Calculate and monitor demand usage for 30 or 60 minute demand cycles and control devices in order to reduce peak demand costs.",
+         "name": "Demand Manager",
+         "category": "Utility",
+         "location": "https://raw.githubusercontent.com/DarwinsDen/Demand-Manager/main/packageManifest.json",
+         "description": "Electricity demand management for those with utility companies that levy demand charges. Monitor 30/60 minute demand usage and control devices to reduce peak peak demand costs.",
          "tags": [ "Energy Monitoring", "Climate Control"]
    	}
    ]
