@@ -143,23 +143,24 @@ def averageTemp(numStaleMins = 0) {
 }
         
 def runningAvgTemp(samples = 1) {
+    def avg = averageTemp(staleMinutes)
     if (samples > 1) {
        state.tempHistory = state.tempHistory.drop(1) + avg
 	   def sum = 0
        def count = 0
        state.tempHistory.each {
-           if (it) {
+           //if (it) {
              count = count + 1
              sum = sum + it
-           }
+          // }
        }
        if (count > 0) {
 	      result = sum / count
        } else {
-           result = averageTemp(staleMinutes)
+           result = avg
        }
     } else {
-       result = averageTemp(staleMinutes)
+       result = avg
     }
     //log.debug "running average is ${result}"
     return result
